@@ -1,0 +1,6 @@
+bases:
+  - ../base/
+patches:
+  - replicacount-patch.yaml
+  - memorylimit-patch.yaml
+namespace: prod

@@ -1,0 +1,14 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: hello-node
+spec:
+  template:
+    spec:
+      containers:
+        - name: echoserver
+          resources:
+            limits:
+              memory: 1250Mi
+            requests:
+              memory: 1250Mi
