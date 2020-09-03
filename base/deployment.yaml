@@ -19,7 +19,7 @@ spec:
         spec:
             containers:
             - image: k8s.gcr.io/echoserver:1.4
-              name: echoserver
+              name: echoserver2
               resources: {}
 status: {}
 
